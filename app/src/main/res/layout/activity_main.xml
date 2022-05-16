@@ -77,6 +77,7 @@
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:enabled="false"
             android:text="공개안함"/>
     </RadioGroup>
 
@@ -89,6 +90,7 @@
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:visibility="gone"
         android:text="(선택) 마케팅 약관에 동의합니다."/>
 
     <Button
