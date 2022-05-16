@@ -40,6 +40,22 @@
         android:imeOptions="actionSearch"
         android:singleLine="true"/>
 
+   <CheckBox
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:checked="true"
+       android:text="이용 약관에 동의합니다."/>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(선택) 마케팅 약관에 동의합니다."/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:textAllCaps="false"
+        android:backgroundTint="#FF0000"/>
 
 
 </LinearLayout>
